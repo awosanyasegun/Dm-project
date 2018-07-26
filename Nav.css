@@ -1,0 +1,113 @@
+
+.header{
+	background:black;
+	width:100%;
+	margin-top:-6px;
+	border-top-left-radius: 10px 10px;
+	border-top-right-radius: 10px 10px;
+}
+/********images************/
+#dp{
+	height:80px;
+	margin-left:20px;
+}
+#dammy{
+	width:390px;
+	margin-left:160px;
+
+}
+#cake {
+	margin-top:25px;
+	margin-left:5%;
+	width:45%;
+	height:420px;
+	float:left;
+	border-left:5px solid burlywood;
+    border-top:5px solid burlywood;
+    border-bottom:5px solid burlywood;;
+	
+}
+#cake1{
+width:45%;
+height:420px;	
+float:left;
+margin-top:25px;
+margin-right:2.5%;
+border-right:5px solid Burlywood;
+border-top:5px solid burlywood;
+border-bottom:5px solid burlywood;
+position:relative;
+z-index:-1;
+}
+/********Navigation********/	
+
+.header ul{
+	list-style:none;
+	padding:0;
+	margin-top:-38px;
+}
+
+.header ul li{
+	float:right;
+	display:block-inline;
+	padding:0px;
+	margin-right:10px;
+	margin-top:-20px;
+	text-align:center;
+	border:1px solid white;
+}
+.header ul li a{
+	font-family:lato;
+	color:white;
+	text-decoration:none;
+	padding:5px;
+	display:block;
+	
+	width:65px;
+}
+.header ul li a:hover{
+    color:black;
+	background-color:white;
+}
+
+/*******CSSMEGAMENU****************/
+.head li ul.megamenu{
+	display:none;
+	width:100%;
+	margin-top:5px;
+	position:absolute;
+	background:white;
+	opacity:0.5;
+}
+.head  li:hover ul.megamenu{
+	display:block;
+}
+.head   li:hover ul.megamenu li{
+	float:left;
+	width:100px;
+	border:none;
+}
+.head li:hover ul.megamenu li a{
+	padding:5px;
+	color:brown;
+	width:100px;
+}
+.head li:hover ul.megamenu li a:hover{
+	padding:5px;
+	color:brown;
+	background:burlywood;
+}
+.head  li:hover ul.megamenu h3{
+padding:10px;
+font-size:18px;
+color:#000;
+width:180px;
+text-align:left;
+margin-left:5px;
+border-bottom:1px solid #74b9ed;
+}
+#gallery{
+	width:250px;
+	
+}
+
